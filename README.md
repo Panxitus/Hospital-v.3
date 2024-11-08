@@ -11,10 +11,9 @@ Las caracteristicas a mejorar son:
 
 1. Diseño mediante bootstrap. 
 
+Descripción de la modularización.
 
-Descripción de la modularización 
-
-Se utiliza la arquitectura 7-1 utilizando la documentación oficial de Sass https://sass-guidelin.es/es/#arquitectura donde se definen las carpetas y los archivos de la apliación. Esta estructura nos permite tener una mayor versatiliad para realizar de los cambios necesarios. 
+Se utiliza la arquitectura 7-1 utilizando la documentación oficial de Sass https://sass-guidelin.es/es/#arquitectura donde se definen las carpetas y los archivos de la aplicación. Esta estructura nos permite tener una mayor versatiliad para realizar de los cambios necesarios en los patrones de diseño. 
 
 Descripción de Sass. 
 
@@ -22,5 +21,5 @@ Preprocesador que permite unificar elementos del diseño por medio de un estruct
 
 Descripción de Bootstrap. 
 
-Framework que permite mejorar la calidad del diseño web. Este es un preprocesador con elementos integrados que permiten agilizar el diseño WEB
+Framework que permite mejorar la calidad del diseño web. Este es un preprocesador con elementos integrados que permiten agilizar el diseño WEB. Elementos extraídos desde la documentación oficial https://getbootstrap.com/
 
