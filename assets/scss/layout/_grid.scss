@@ -1,50 +1,45 @@
-.section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+@use '../utils/variables' as *;
 
-  &__column {
-    border: 1px solid blue;
-    padding: 10px;
-    flex: 1 1 calc(25% - 20px);
-    margin: 10px;
-    text-align: center;
+.testimonials {
+  padding: 40px 0;
+  text-align: center;
 
-    &:first-child {
-      margin-left: 0;
-    }
+  &__title {
+      font-size: 2.5rem;
+      color: $tes-primary-color;
+      text-shadow: $tes-title-shadow;
+      margin-bottom: 40px;
+  }
 
-    &:last-child {
-      margin-right: 0;
-    }
+  &__grid {
+      display: flex;
+      justify-content: center;
+  }
+
+  &__col {
+      margin-bottom: 20px;
+  }
+
+  &__item {
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
   }
 
   &__image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
   }
 
-  &__title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  &__name {
+      font-size: 1.5rem;
+      color: $tes-primary-color;
+      margin-bottom: 10px;
   }
 
   &__text {
-    font-size: 1em;
+      color: $tes-text-color;
   }
 }
-
-@media (max-width: 768px) {
-  .section__column {
-    flex: 1 1 calc(50% - 20px);
-  }
-}
-
-@media (max-width: 480px) {
-  .section__column {
-    flex: 1 1 100%;
-  }
-}
-
-
