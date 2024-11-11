@@ -7,72 +7,99 @@
     <title>Equipo Médico</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__column header__column--logo">
-            <img src="assets/img/LogoHospital.png" alt="Logo" class="header__logo-image">
+ <!--Inicio de header  -->
+<header class="header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-2 header__logo">
+                <img src="assets/img/LogoHospital.png" alt="Logo Corporativo" class="header__logo-image">
+            </div>
+            <div class="col-md-8 header__nav">
+                <nav class="nav justify-content-center">
+                    <a class="nav-link header__nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link header__nav-link" href="equipo.html">Equipo Medico</a>
+                    <a class="nav-link header__nav-link" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <div class="col-md-2 header__button">
+                <button class="btn btn-primary header__button-reservar">Agendar Horas</button>
+            </div>
         </div>
-        <div class="header__column header__column--nav">
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="index.html" class="header__nav-link">Inicio</a></li>
-                    <li class="header__nav-item"><a href="equipo.html" class="header__nav-link">Equipo médico</a></li>
-                    <li class="header__nav-item"><a href="contacto.html" class="header__nav-link">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header__column header__column--button">
-            <button class="header__button">Reservar Citas</button>
-        </div>
-    </header>
+    </div>
+</header>
+<!--Fin de header  -->
 
-    <section class="section">
-        <div class="section__column">
-            <img src="assets/img/doctor1.jpeg" alt="doctor1">
-            <h2>Felipe González </h2>
-            <h2>Cardiología</h2>
-            <p>Médico Cirujano, Universidad Nacional De Cordoba, Argentina</p>
+<!-- Inicio grid equipo medico-->
+    
+
+<section class="testimonials">
+    <div class="container">
+            <h2 class="testimonials__title">Nuestro Equipo Médico</h2>
+        <div class="row testimonials__grid">
+            <div class="col-md-4 testimonials__col">
+                <div class="testimonials__item">
+                    <img src="assets/img/doctor1.jpeg" alt="testimonials__image"> 
+                    <h2 class="testimonials__name">Felipe González</h2>
+                    <h2 class="testimonials__name">Cardiología</h2>
+                    <p class="testimonials__text">Médico Cirujano, Universidad Nacional De Cordoba, Argentina</p>
+                </div>
+            </div>
+            <div class="col-md-4 testimonials__col">
+                <div class="testimonials__item">
+                    <img src="assets/img/doctor2.jpeg" alt="Imagen 2" class="testimonials__image">
+                    <h2 class="testimonials__name">Nicole Abarca</h2>
+                    <h2 class="testimonials__name">Medicina General</h2>
+                    <p class="testimonials__text">Médico General, Universidad de Chile, Chile</p>
+                </div>
+            </div>
+            <div class="col-md-4 testimonials__col">
+                <div class="testimonials__item">
+                    <img src="assets/img/doctor3.jpeg" alt="Imagen 3" class="testimonials__image">
+                    <h2 class="testimonials__name">Karina Palma</h2>
+                    <h2 class="testimonials__name">Kinesiología</h2>
+                    <p class="testimonials__text">Kinesiologa, Universidad Católica de Chile, Chile</p>
+                </div>
+            </div>
+            <div class="col-md-4 testimonials__col">
+                <div class="testimonials__item">
+                    <img src="assets/img/doctor4.jpeg" alt="Imagen 3" class="testimonials__image">
+                    <h2 class="testimonials__name">Ximena Torres</h2>
+                    <h2 class="testimonials__name">Urgencias</h2>
+                    <p class="testimonials__text">Médico de Urgencia, Jefe de unidad, Universidad de Chile, Chile</p>
+                </div>
+            </div>
         </div>
-        <div class="section__column">
-            <img src="assets/img/doctor2.jpeg" alt="doctor2">
-            <h2>Nicole Abarca</h2>
-            <h2>Medicina General</h2>
-            <p>Médico General, Universidad de Chile, Chile</p>
-        </div>
-        <div class="section__column">
-            <img src="assets/img/doctor3.jpeg" alt="doctor3">
-            <h2>Karina Palma </h2>
-            <h2>Kinesiología</h2>
-            <p>Kinesiologa, Universidad Católica de Chile, Chile</p>
-        </div>
-        <div class="section__column">
-            <img src="assets/img/doctor4.jpeg" alt="doctor4">
-            <h2>Ximena Torres</h2>
-            <h2>Urgencias</h2>
-            <p>Médico de Urgencia, Jefe de unidad, Universidad de Chile, Chile</p>
-      </section>
-    <!--Fin lista de equipo médico  -->
+    </div>
+</section>
+<!--Fin lista de equipo médico  -->
 
     <!-- inicio de footer -->
-    <footer>
-        <footer class="footer">
-            <div class="footer__column footer__column--about">
-              <h3 class="footer__title">Sobre Nosotros</h3>
-              <p class="footer__text">Somos una Institución comprometida con la salud del País.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__row">
+                <div class="col-md-4 footer__col footer__col--contact">
+                    <h5 class="footer__title">Contacto</h5>
+                    <p class="footer__text">Dirección: Calle Falsa 123</p>
+                    <p class="footer__text">Teléfono: +56 9 1234 5678</p>
+                    <p class="footer__text">Email: hospital@empresa.com</p>
+                </div>
+                <div class="col-md-4 footer__col footer__col--links">
+                    <h5 class="footer__title">Links de Interés</h5>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#" class="footer__link">Nuestros Servicios</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Rescates</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Cotizar bonos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer__col footer__col--social">
+                    <h5 class="footer__title">Redes Sociales</h5>
+                    <a href="#" class="footer__social-link"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
             </div>
-            <div class="footer__column footer__column--links">
-              <h3 class="footer__title">Accesos Directos</h3>
-              <ul class="footer__list">
-                <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Services</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
-              </ul>
-            </div>
-            <div class="footer__column footer__column--contact">
-              <h3 class="footer__title">Contactenos</h3>
-              <p class="footer__text">Email: info@HOSPITAL.com</p>
-              <p class="footer__text">Phone: +56 9 12345678</p>
-            </div>
-          </footer>
+        </div>
+    </footer>
 <!-- Fin de footer -->
 </body>
 </html>
