@@ -94,11 +94,10 @@
   max-width: 80%;
 }
 .banner__title {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.banner__subtitle {
-  font-size: 1.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .vision-mission {

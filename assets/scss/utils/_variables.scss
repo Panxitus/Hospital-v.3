@@ -7,9 +7,9 @@
     $hover-color: darken($primary-color, 10%);
     
     // variable banner
-    $banner-primary-color: #007bff;
-    $banner-bg: url('../../img/banner.jpg'); // Ruta de la imagen del banner
-
+    $bn-primary-color: #007bff;
+    $bn-banner-bg: url('../../img/banner.jpg'); // Ruta de la imagen del banner
+    $bn-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
     // variable grid
     $vm-primary-color: #007bff;
