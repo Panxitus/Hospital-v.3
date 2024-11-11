@@ -40,6 +40,29 @@
   color: #007bff;
 }
 
+@media (max-width: 992px) {
+  .vision-mission__col {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .vision-mission__title {
+    font-size: 1.75rem;
+  }
+
+  .vision-mission__text {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 576px) {
+  .vision-mission__title {
+    font-size: 1.5rem;
+  }
+
+  .vision-mission__text {
+    font-size: 0.8rem;
+  }
+}
 .header__logo-image {
   max-width: 100%;
 }
@@ -186,6 +209,29 @@
 @media (max-width: 480px) {
   .section__column {
     flex: 1 1 100%;
+  }
+}
+@media (max-width: 992px) {
+  .vision-mission__col {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .vision-mission__title {
+    font-size: 1.75rem;
+  }
+
+  .vision-mission__text {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 576px) {
+  .vision-mission__title {
+    font-size: 1.5rem;
+  }
+
+  .vision-mission__text {
+    font-size: 0.8rem;
   }
 }
 /*!
